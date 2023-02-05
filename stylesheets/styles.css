@@ -1,0 +1,9 @@
+/* Main Styles Sheet */
+
+
+/* Test Runner for CSS File To Show Borders*/
+header, img, h1, nav, ul, label, li, section, h2, footer{
+    border: 2px solid grey;
+    padding: 10px;
+    margin: 10px;
+}
