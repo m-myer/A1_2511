@@ -20,16 +20,16 @@ header, footer {
 
 }
 
-#sectionWrapper {
+.sectionWrapper {
     display: grid;
-    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-columns: 2fr 3fr 1fr;
 }
 
-#centerSectionContent {
+.centerSectionContent {
     text-align: center;
 }
 
-#centerSectionContent p{
+.centerSectionContent p{
     text-align:left;
 }
 
@@ -40,7 +40,9 @@ header, footer {
 .header {
     text-align: center;
     display: grid;
-    grid-template-columns: 20% 80%;}
+    grid-template-columns: 20% 80%;
+    grid-template-rows: 50% 50%;
+}
 
 .nav {
     position: fixed;
