@@ -9,6 +9,21 @@ header, img, h1, nav, ul, label, li, h2, footer{
     margin: 10px;
 }
 
+body {
+    margin: 0;
+}
+
+header {
+
+}
+
+header, footer {
+    background-color: lavender;
+    border-radius: 0;
+    margin: 0;
+
+}
+
 #sectionWrapper {
     display: grid;
     grid-template-columns: 1fr 2fr 1fr;
@@ -25,9 +40,7 @@ header, img, h1, nav, ul, label, li, h2, footer{
 .header {
     text-align: center;
     display: grid;
-    grid-template-columns: 20% 80%;
-    grid-template-rows: 50% 50%;
-}
+    grid-template-columns: 20% 80%;}
 
 .nav {
     position: fixed;
