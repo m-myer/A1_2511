@@ -13,10 +13,6 @@ body {
     margin: 0;
 }
 
-header {
-
-}
-
 header, footer {
     background-color: lavender;
     border-radius: 0;
@@ -35,6 +31,10 @@ header, footer {
 
 #centerSectionContent p{
     text-align:left;
+}
+
+#table {
+    border-collapse: collapse;
 }
 
 .header {
