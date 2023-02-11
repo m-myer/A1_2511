@@ -9,16 +9,16 @@ header, img, h1, nav, ul, label, li, h2, footer{
     margin: 10px;
 }
 
-#sectionWrapper {
+.sectionWrapper {
     display: grid;
-    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-columns: 2fr 3fr 1fr;
 }
 
-#centerSectionContent {
+.centerSectionContent {
     text-align: center;
 }
 
-#centerSectionContent p{
+.centerSectionContent p{
     text-align:left;
 }
 
@@ -26,7 +26,6 @@ header, img, h1, nav, ul, label, li, h2, footer{
     text-align: center;
     display: grid;
     grid-template-columns: 20% 80%;
-    grid-template-rows: 50% 50%;
 }
 
 .nav {
