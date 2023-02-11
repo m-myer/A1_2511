@@ -33,6 +33,24 @@ footer {
     text-align: center;
 }
 
+.leftSectionNav {
+    background-image: url(/A1_2511/images/px717569-image-kwvv6g7d.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.rightSection {
+    background-image: url(/A1_2511/images/px717569-image-kwvv6g7d.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.nav {
+    background-color: antiquewhite;
+    opacity: 75%;
+    position: fixed;
+}
+
 .centerSectionContent p{
     text-align:left;
 }
