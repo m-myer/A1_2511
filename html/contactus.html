@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="">
     <meta name="keywords" content="">
     <meta name="description" content="">
-    <link rel="stylesheet" href="../stylesheets/styles.css">
+    <link rel="stylesheet" href="../stylesheets/contentStyles.css">
+    <link rel="stylesheet" href="../stylesheets/contactUsForm.css">
     <title> Contact Us </title>
 </head>
 
@@ -29,30 +31,40 @@
                         <label> Navigation </label>
                         <ul class="headerNavList">
                             <li><a href="./main.html"> Home Page </a></li>
-                            <li><a href="./page2.html"> Page 2 </a></li>
-                            <li><a href="./page3.html"> Page 3 </a></li>
+                            <li><a href="./page2.html"> Study & Mental Health Tips For Whiny People </a></li>
+                            <li><a href="./page3.html"> Resources For Mental Health (You're Gonna Need 'Em) </a></li>
+                            <li><a class="currentPage" href="./contactus.html"> (Please Don't) Contact Us </a></li>
                         </ul>
                     </nav>
                 </div>
                 <div class="centerSectionContent">
-                    <h2> Temp Contact Us Section </h2>
-                
-                    <form name="contactUsForm" action="contactus.html" method="post">
-                        <label> Subject *<input type="text" placeholder="Subject"></label><br><br>
-                        <label> Inquiry *<textarea placeholder="Inquiry" rows="10" cols="30"></textarea></label><br><br>
-                        <label> Email *<input type="email" size="20" name="Email" placeholder="your_email@gmail.com" pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-z]{2,4}$"></label><br><br>
-                    </form>
-                
-                
+                    <div id="form">
+                        <h2> Contact Us Information </h2>
+                        <p> Fields with an asterisk (*) are required </p>
+                        
+                        <form name="contactUsForm" action="contactus.html" method="post">
+                            <div id="formBackground1"></div>
+                            <div id="formBackgroundBorder"></div>
+                            <input type="text" size="25" maxlength="32" placeholder="Subject *"><br><br>
+                            <input type="email" size="25" name="Email" placeholder="your_email@gmail.com *"
+                                pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-z]{2,4}$"></label><br><br>
+                            <input type="tel" size="25" placeholder="Ex. 123-456-7890" pattern="[3]/-"><br><br>
+
+                            <textarea></textarea>
+
+                        </form>
+                    </div>
                 </div>
-                <div class="rightSection"></div>
             </div>
         </section>
     </main>
-    
-    <footer>
+    <div class="rightSection"> 
+    </div>
+
+    <footer class="footer">
         <div>&copy;Copyright _ industries(?)</div>
     </footer>
-    
+
 </body>
+
 </html>

@@ -1,0 +1,129 @@
+/*
+    ========== Id Selectors ==========
+*/
+#table {
+    border-collapse: collapse;
+}
+
+
+/*
+    ========== Pseudo-Class Selectors ==========
+*/
+input:valid {
+    background-color: palegreen;
+}
+
+input:invalid {
+    background-color: lightcoral;
+}
+
+
+/*
+    ========== Class Selectors ==========
+*/
+.header {
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 8fr 1fr;
+    font-size: 2rem;
+    height: 15%;
+}
+
+.sectionWrapper {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    height: 100%;
+}
+
+.leftSectionNav {
+    background-image: url(/A1_2511/images/px717569-image-kwvv6g7d.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+}
+
+.nav {
+    position: fixed;
+    border-radius: 5%;
+    left: 2%;
+    width: 15%;
+    height: auto;
+    text-align: center;
+}
+
+.rightSection {
+    background-image: url(/A1_2511/images/px717569-image-kwvv6g7d.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.footer {
+    margin: auto;
+    text-align: center;
+}
+
+.currentPage {
+    color: violet;
+}
+
+
+/*
+    ========== Element Selectors ==========
+*/
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+main {
+    min-height: 500px;
+}
+
+section {
+    min-height: 500px;
+}
+
+textarea {
+    resize: none;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+hr {
+    width: 100%;
+    margin: 50px;
+}
+
+
+/*
+    ========== Unassigned Selectors ==========
+*/
+nav ul {
+    padding: 0;
+}
+
+.centerSectionContent p{
+    text-align:left;
+}
+
+.centerSectionContent h2{
+    text-align: center;
+}
+
+.nav label {
+    font-size: 2rem;
+    text-decoration: overline underline;
+}
+
+.nav li {
+    font-size: 1.25rem;
+    text-decoration: none;
+    list-style: none;
+    margin-top: 50px;
+}
