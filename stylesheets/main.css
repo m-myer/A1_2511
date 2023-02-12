@@ -48,15 +48,15 @@
 }
 
 .buttonStyle {
-    background-color: lavender;
+    background-color:rgb(110, 47, 78, 0.45);
     margin: 5px;
     padding: 5px;
     border-radius: 5px; 
 }
 
 .logoDiv img{
-    height: 150px;
-    width: 150px;
+    height: 250px;
+    width: 250px;
 }
 
 /*
@@ -64,16 +64,18 @@
 */
 
 header, footer {
-    background-color: lavender;
+    background-color:rgb(110, 47, 78, 0.15);
 }
 
 header {
+    border-bottom: 10px solid rgb(110, 47, 78, 0.25);
     height: 15%;
     min-height: 150px;
     text-align: center;
 }
 
 footer {
+    border-top: 10px solid rgb(110, 47, 78, 0.25);
     height: 10%;
     max-height: 100px;
     padding-top: 50px;
