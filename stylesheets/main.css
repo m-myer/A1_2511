@@ -55,8 +55,11 @@
 }
 
 .logoDiv img{
-    height: 250px;
-    width: 250px;
+    position: relative;
+    top: -10px;
+    left: 5px;
+    height: 175px;
+    width: 175px;
 }
 
 /*
