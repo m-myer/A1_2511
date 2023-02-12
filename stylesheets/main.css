@@ -10,10 +10,10 @@
     min-width: 300px;
 }
 
-    #mainNav label {
-        font-size: 2rem;
-        text-decoration: overline underline;
-    }
+#mainNav label {
+    font-size: 2rem;
+    text-decoration: overline underline;
+}
 
 #mainButtons {
     display: grid;
@@ -39,6 +39,14 @@
     font-size: 50pt;
 }
 
+a:link {
+    color: paleturquoise;
+}
+
+a:visited {
+    color: paleturquoise;
+}
+
 
 /*
     ========== Class Selectors ==========
@@ -55,9 +63,6 @@
 }
 
 .logoDiv img{
-    position: relative;
-    top: -10px;
-    left: 5px;
     height: 175px;
     width: 175px;
 }
