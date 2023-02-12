@@ -31,11 +31,7 @@
 }
 
 #welcomeMessage {
-    position: absolute;
-    width: 80%;
-    top: 10%;
-    left: 10%;
-    z-index: 6;
+    display: inline-block;
     font-size: 50pt;
 }
 
