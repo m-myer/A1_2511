@@ -1,28 +1,8 @@
 /*
     ========== Id Selectors ==========
 */
-
-#mainNav {
-    position: absolute;
-    bottom: 0;
-    left: 30%;
-    width: 40%;
-    min-width: 300px;
-}
-
-#mainNav label {
-    font-size: 2rem;
-    text-decoration: overline underline;
-}
-
-#mainButtons {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    font-size: 1.25rem;
-    padding: 20px;
-}
-
 #trans-box {
+    position: absolute;
     background: rgba(222, 222, 222, 0.45);
     height: 100%;
     width: 100%;
@@ -31,8 +11,36 @@
 }
 
 #welcomeMessage {
-    display: inline-block;
     font-size: 50pt;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#navDiv {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 10%;
+}
+
+#mainNav {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+#mainNav label {
+    font-size: 200%;
+    text-decoration: overline underline;
+}
+
+#mainButtons {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    font-size: 125%;
+    padding: 20px;
 }
 
 a:link {
@@ -47,8 +55,10 @@ a:visited {
 /*
     ========== Class Selectors ==========
 */
-.pageNameDiv {
-    margin-left: 25px;
+.mainPageSectionWrapper {
+    position: absolute;
+    min-height: 100%;
+    min-width: 100%;
 }
 
 .buttonStyle {
@@ -58,45 +68,40 @@ a:visited {
     border-radius: 5px; 
 }
 
+.mainFooter{
+    font-size: 1.5rem;
+    position: relative;
+    top: 700px;
+    text-align: center;
+}
 
 
 /*
     ========== Element Selectors ==========
 */
-
-header, footer {
-    background-color:rgb(110, 47, 78, 0.15);
+html {
+    position: relative;
+    min-height: 100%;
 }
 
 header {
     border-bottom: 10px solid rgb(110, 47, 78, 0.25);
-    height: 15%;
-    min-height: 150px;
-    text-align: center;
-}
-
-footer {
-    border-top: 10px solid rgb(110, 47, 78, 0.25);
-    height: 10%;
-    max-height: 100px;
-    padding-top: 50px;
-}
-
-
-
-main {
-    height: 100%;
-    background-image: url(../images/pastelImage.jpg);
-    background-size: cover;
-    z-index: 0;
-}
-
-section {
-    text-align: center;
-    z-index: 2;
 }
 
 header div {
     text-align: left;
 }
 
+body {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+main {
+    position: absolute;
+    min-height: 75%;
+    min-width: 100%;
+    background-image: url(../images/pastelImage.jpg);
+    background-size: cover;
+}
