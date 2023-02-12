@@ -58,13 +58,7 @@ a:visited {
     border-radius: 5px; 
 }
 
-.logoDiv img{
-    position: relative;
-    top: -10px;
-    left: 5px;
-    height: 175px;
-    width: 175px;
-}
+
 
 /*
     ========== Element Selectors ==========
