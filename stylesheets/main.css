@@ -68,13 +68,6 @@ a:visited {
     border-radius: 5px; 
 }
 
-.mainFooter{
-    font-size: 1.5rem;
-    position: relative;
-    top: 700px;
-    text-align: center;
-}
-
 
 /*
     ========== Element Selectors ==========
@@ -84,10 +77,6 @@ html {
     min-height: 100%;
 }
 
-header {
-    border-bottom: 10px solid rgb(110, 47, 78, 0.25);
-}
-
 header div {
     text-align: left;
 }
@@ -95,7 +84,6 @@ header div {
 body {
     position: absolute;
     height: 100%;
-    width: 100%;
 }
 
 main {

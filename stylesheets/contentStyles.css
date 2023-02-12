@@ -14,6 +14,7 @@ input:valid {
 }
 
 input:invalid {
+    transition: all;
     background-color: lightcoral;
 }
 
@@ -21,13 +22,13 @@ input:invalid {
 /*
     ========== Class Selectors ==========
 */
-.header {
-    background-color: rgba(112, 63, 228, 0.25);
-    text-align: center;
+.header { 
+    height: fit-content;
     display: grid;
+    border-bottom: 10px solid rgb(110, 47, 78, 0.25);
     grid-template-columns: 1fr 8fr 1fr;
+    text-align: center;
     font-size: 2rem;
-    height: 15%;
 }
 
 .sectionWrapper {
@@ -64,41 +65,29 @@ input:invalid {
 }
 
 .footer {
-    margin-left: auto;
-    margin-right: auto;
+    position: relative;
+    border-top: 10px solid rgb(110, 47, 78, 0.25);
     text-align: center;
     font-size: 1.5rem;
+    top: 75%;
 }
 
 .currentPage {
     color: violet;
 }
 
-.nav hr {
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.logoDiv img{
-    position: relative;
-    top: -10px;
-    left: 5px;
-    height: 175px;
-    width: 175px;
+.logoDiv {
+    align-items: center;
 }
 
 /*
     ========== Element Selectors ==========
 */
 body {
-    background-color: rgba(255, 0, 0, 0.75);
-    min-height: 100%;
-    margin: 0;
+    margin: 0 5px 0 5px;
 }
 
 main {
-    background-color: rgba(4, 0, 255, 0.5);
     min-height: 500px;
 }
 
@@ -155,4 +144,15 @@ nav ul {
     text-decoration: none;
     list-style: none;
     margin-top: 50px;
+}
+
+.nav hr {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.logoDiv img{
+    height: 100%;
+    width: 100%;
 }
