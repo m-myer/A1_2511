@@ -19,7 +19,7 @@ input:valid {
 */
 .sectionWrapper {
     display: grid;
-    grid-template-columns: 2fr 3fr 1fr;
+    grid-template-columns: 2fr 2fr 1fr;
     grid-template-rows: auto;
 }
 
@@ -40,9 +40,14 @@ input:valid {
 }
 
 .nav {
-    background-color: antiquewhite;
+    background-color: blue;
+    border: 1rem inset blanchedalmond;
+    width: 25%;
+    height: 15%;
+    background-color: burlywood;
     opacity: 75%;
     position: fixed;
+    z-index: 1;
 }
 
 .centerSectionContent p{
@@ -105,4 +110,20 @@ footer {
 
 textarea {
     resize: none;
+}
+
+
+
+
+/*
+    ========== Unassigned Selectors ==========
+*/
+nav label {
+    font-size: 2rem;
+    text-align: left;
+}
+
+nav li {
+    font-size: 1.25rem;
+    text-align: left;
 }
