@@ -22,11 +22,13 @@ input:invalid {
     ========== Class Selectors ==========
 */
 .header {
+    background-color: rgba(112, 63, 228, 0.25);
     text-align: center;
     display: grid;
     grid-template-columns: 1fr 8fr 1fr;
     font-size: 2rem;
     height: 15%;
+    margin-bottom: 20px;
 }
 
 .sectionWrapper {
@@ -35,8 +37,13 @@ input:invalid {
     height: 100%;
 }
 
+.centerSectionContent {
+    background-color: rgb(127, 255, 212, 0.25);
+}
+
 .leftSectionNav {
-    background-image: url(/A1_2511/images/px717569-image-kwvv6g7d.jpg);
+    background-color: rgb(100, 149, 237, 0.10);
+    margin-right: 20px;
     background-repeat: no-repeat;
     background-size: cover;
     align-items: center;
@@ -52,18 +59,24 @@ input:invalid {
 }
 
 .rightSection {
-    background-image: url(/A1_2511/images/px717569-image-kwvv6g7d.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-color: rgba(245, 108, 238, 0.25);
+    margin-left: 20px;
 }
 
 .footer {
+    background-color: rgba(223, 39, 131, 0.25);
     margin: auto;
     text-align: center;
 }
 
 .currentPage {
     color: violet;
+}
+
+.nav hr {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 
@@ -114,6 +127,12 @@ nav ul {
 
 .centerSectionContent h2{
     text-align: center;
+}
+
+.centerSectionContent hr{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .nav label {
