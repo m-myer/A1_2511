@@ -9,6 +9,10 @@
 /*
     ========== Pseudo-Class Selectors ==========
 */
+a:hover {
+    color: violet;
+}
+
 input:valid {
     background-color: palegreen;
 }
@@ -49,14 +53,18 @@ input:invalid {
     align-items: center;
 }
 
-.nav {
+.navPages {
     position: fixed;
-    border-radius: 5%;
     left: 2%;
     width: 15%;
-    height: auto;
     text-align: center;
-    margin-top: 40px;
+}
+
+.currentPageNav {
+    position: fixed;
+    right: 2%;
+    width: 15%;
+    text-align: center;
 }
 
 .rightSection {
@@ -84,6 +92,7 @@ input:invalid {
     ========== Element Selectors ==========
 */
 body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     margin: 0 5px 0 5px;
 }
 
@@ -134,25 +143,67 @@ nav ul {
     margin-right: auto;
 }
 
-.nav label {
+.navPages label {
     font-size: 2rem;
     text-decoration: overline underline;
 }
-
-.nav li {
+.navPages li {
     font-size: 1.25rem;
-    text-decoration: none;
     list-style: none;
-    margin-top: 50px;
+    margin-top: 25px;
+}
+.navPages hr {
+    width: 100%;
+    margin: 40px auto 40px auto
 }
 
-.nav hr {
+.currentPageNav {
+    position: fixed;
+    text-align: center;
+}
+.currentPageNav label {
+    font-size: 2rem;
+    text-decoration: overline underline;
+}
+.currentPageNav li {
+    font-size: 1.25rem;
+    list-style: none;
+    margin-top: 25px;
+}
+.currentPageNav hr {
     width: 100%;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 40px auto 40px auto
 }
 
 .logoDiv img{
     height: 100%;
     width: 100%;
+}
+
+.centerSectionContent p{
+    margin-bottom: 75px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    width: 80%;
+}
+
+.centerSectionContent h2{
+    margin-left: auto;
+    margin-right: auto;
+    text-decoration: underline;
+}
+
+.centerSectionContent h3{
+    margin-left: 10%;
+    margin-right: auto;
+    text-align: left;
+    width: 80%;
+    font-weight: lighter;
+}
+
+article h3::first-letter {
+    text-transform: uppercase;
+    font-weight: 100;
+    font-size: 1.5rem;
 }
