@@ -13,15 +13,6 @@ a:hover {
     color: violet;
 }
 
-input:valid {
-    background-color: palegreen;
-}
-
-input:invalid {
-    transition: all;
-    background-color: lightcoral;
-}
-
 
 /*
     ========== Class Selectors ==========
