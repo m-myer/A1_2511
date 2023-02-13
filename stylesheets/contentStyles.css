@@ -41,12 +41,8 @@ input:invalid {
     min-height: 100%;
 }
 
-.centerSectionContent {
-    background-color: rgb(127, 255, 212, 0.25);
-}
-
 .leftSectionNav {
-    background-color: rgb(100, 149, 237, 0.10);
+    /* background-color: rgb(100, 149, 237, 0.10); */
     margin-right: 20px;
     background-repeat: no-repeat;
     background-size: cover;
@@ -55,6 +51,7 @@ input:invalid {
 
 .navPages {
     position: fixed;
+    margin-top: 2%;
     left: 2%;
     width: 15%;
     text-align: center;
@@ -62,13 +59,13 @@ input:invalid {
 
 .currentPageNav {
     position: fixed;
+    margin-top: 2%;
     right: 2%;
     width: 15%;
     text-align: center;
 }
 
 .rightSection {
-    background-color: rgba(245, 108, 238, 0.25);
     margin-left: 20px;
 }
 
@@ -127,6 +124,10 @@ hr {
 */
 nav ul {
     padding: 0;
+}
+
+figure {
+    float: right;
 }
 
 .centerSectionContent p{
