@@ -15,7 +15,7 @@
 #form p {
     margin: auto;
     text-align: center;
-    color: red
+    color: red;
 }
 
 #formButtons [type="submit"]{
@@ -47,4 +47,8 @@ form label {
 
 input {
     border-radius: 4px;
+}
+
+textarea {
+    resize: none;
 }

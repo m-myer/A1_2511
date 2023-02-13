@@ -1,6 +1,9 @@
-/*
-    ========== Id Selectors ==========
-*/
+.mainPageSectionWrapper {
+    position: absolute;
+    min-height: 100%;
+    min-width: 100%;
+}
+
 #trans-box {
     position: absolute;
     background: rgba(222, 222, 222, 0.45);
@@ -35,6 +38,14 @@
     text-decoration: overline underline;
 }
 
+.buttonStyle {
+    font-size: 1.05rem;
+    background-color:rgb(110, 47, 78, 0.45);
+    margin: 5px;
+    padding: 5px;
+    border-radius: 5px; 
+}
+
 #mainButtons {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -50,28 +61,6 @@ a:visited {
     color: paleturquoise;
 }
 
-
-/*
-    ========== Class Selectors ==========
-*/
-.mainPageSectionWrapper {
-    position: absolute;
-    min-height: 100%;
-    min-width: 100%;
-}
-
-.buttonStyle {
-    font-size: 1.05rem;
-    background-color:rgb(110, 47, 78, 0.45);
-    margin: 5px;
-    padding: 5px;
-    border-radius: 5px; 
-}
-
-
-/*
-    ========== Element Selectors ==========
-*/
 html {
     position: relative;
     min-height: 100%;
