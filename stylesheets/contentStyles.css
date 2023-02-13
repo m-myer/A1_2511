@@ -208,3 +208,16 @@ article h3::first-letter {
     font-weight: 100;
     font-size: 1.5rem;
 }
+
+th {
+    background-color: white;
+}
+
+tr:nth-child(even) {
+    background-color: salmon;
+  }
+
+tr:nth-child(odd) {
+    background-color: seagreen;
+
+  }
