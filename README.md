@@ -12,7 +12,7 @@ Michael Myer
 
 Contribution Split:
 
-<u>Content</u> <br>
+Content <br>
   -Andrew <br>
   -Michael <br>
 
