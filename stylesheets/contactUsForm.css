@@ -18,7 +18,33 @@
     color: red
 }
 
+#formButtons [type="submit"]{
+    background-color: paleturquoise;
+    border-radius: 5%;
+    margin-top: 8%;
+    margin-left: 8%;
+    width: 15%;
+    padding: 5px;
+}
+
+#formButtons [type="reset"] {
+    background-color: paleturquoise;
+    border-radius: 5%;
+    margin-top: 8%;
+    margin-left: 8%;
+    width: 15%;
+    padding: 5px;
+}
+
+#formButtons [type="submit"]:hover, #formButtons [type="reset"]:hover{
+    background-color: violet;
+}
+
 form label {
     margin-top: 1px;
     margin-bottom: 1px;
+}
+
+input {
+    border-radius: 4px;
 }
