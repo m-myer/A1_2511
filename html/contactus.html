@@ -45,12 +45,39 @@
                         <form name="contactUsForm" action="contactus.html" method="post">
                             <div id="formBackground1"></div>
                             <div id="formBackgroundBorder"></div>
-                            <input type="text" size="25" maxlength="32" placeholder="Subject *"><br><br>
+                            <input type="text" size="25" maxlength="32" placeholder="Subject *" required><br><br>
                             <input type="email" size="25" name="Email" placeholder="your_email@gmail.com *"
-                                pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-z]{2,4}$"></label><br><br>
+                                pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-z]{2,4}$" required></label><br><br>
                             <input type="tel" size="25" placeholder="Ex. 123-456-7890" pattern="[0-9]{3}/-[0-9]{3}/-[0-9]{4}"><br><br>
+                            <input type="date" name="date"><br><br>
+                            <label> Purpose of contact: <br>
+                                <label> 
+                                        <input type="radio" name="purpose" value="inquiry" checked />
+                                        General Inquiry 
+                                </label><br>
+                                <label> 
+                                        <input type="radio" name="purpose" value="suggestion" />
+                                        Suggestion 
+                                </label><br>
+                                <label> 
+                                        <input type="radio" name="purpose" value="other" />
+                                        Other 
+                                </label><br>
+                            </label><br>
 
-                            <textarea></textarea>
+                            <textarea required></textarea><br><br>
+
+                            <label> Send me a copy of this email: <br>
+                                <label> Yes  
+                                        <input type="checkbox" name="emailCopy" value="yes" checked />
+                                </label>
+                                <label> No 
+                                        <input type="checkbox" name="emailCopy" value="no" />
+                                </label><br>
+                            </label><br>
+
+                            <input type="submit" value="Submit">
+                            <input type="reset" value="Clear">
 
                         </form>
                     </div>
