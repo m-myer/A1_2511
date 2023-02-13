@@ -1,9 +1,11 @@
 /*
     ========== Id Selectors ==========
 */
-#table {
+table {
     border-collapse: collapse;
 }
+
+
 
 
 /*
@@ -42,7 +44,6 @@ a:hover {
 
 .navPages {
     position: fixed;
-    margin-top: 2%;
     left: 2%;
     width: 15%;
     text-align: center;
@@ -50,7 +51,6 @@ a:hover {
 
 .currentPageNav {
     position: fixed;
-    margin-top: 2%;
     right: 2%;
     width: 15%;
     text-align: center;
@@ -135,6 +135,13 @@ figure {
     margin-right: auto;
 }
 
+.centerSectionContent table{
+    width: 100%;
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .navPages label {
     font-size: 2rem;
     text-decoration: overline underline;
@@ -194,21 +201,34 @@ figure {
     font-weight: lighter;
 }
 
+article {
+}
+
 article h3::first-letter {
     text-transform: uppercase;
     font-weight: 100;
     font-size: 1.5rem;
 }
 
+article p {
+    text-align: center;
+}
+
+.pageSectionHeader {
+    text-decoration: underline wavy;
+    font-size: 2.5rem;
+    text-align: center;
+}
+
 th {
-    background-color: white;
+    background-color: #D1D7E2;
 }
 
 tr:nth-child(even) {
-    background-color: salmon;
+    background-color: #D7E2D1;
   }
 
 tr:nth-child(odd) {
-    background-color: seagreen;
+    background-color: #E2D1D7;
 
   }
