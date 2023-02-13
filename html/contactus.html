@@ -31,8 +31,11 @@
                         <label> Navigation </label>
                         <ul class="headerNavList">
                             <li><a href="./main.html"> Home Page </a></li>
+                            <hr>
                             <li><a href="./balance.html"> Study & Mental Health Tips For Whiny People </a></li>
+                            <hr>
                             <li><a href="./resources.html"> Resources For Mental Health (You're Gonna Need 'Em) </a></li>
+                            <hr>
                             <li><a class="currentPage" href="./contactus.html"> (Please Don't) Contact Us </a></li>
                         </ul>
                     </nav>
@@ -41,15 +44,17 @@
                     <div id="form">
                         <h2> Contact Us Information </h2>
                         <p> Fields with an asterisk (*) are required </p>
-                        
-                        <form name="contactUsForm" action="mailto:witwilly@srenebrum.com" method="post">
-                            <div id="formBackground1"></div>
-                            <div id="formBackgroundBorder"></div>
-                            <input type="text" size="25" maxlength="32" placeholder="Subject *" required><br><br>
-                            <input type="email" size="25" name="Email" placeholder="your_email@gmail.com *"
-                                pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-z]{2,4}$" required></label><br><br>
-                            <input type="tel" size="25" placeholder="Ex. 123-456-7890" pattern="[0-9]{3}/-[0-9]{3}/-[0-9]{4}"><br><br>
-                            <input type="date" name="date"><br><br>
+                        <form name="contactUsForm" action="mailto:witwilly@serenebrum.com" method="post">
+                            <labeL>Subject *</labeL><br>
+                            <input type="text" size="25" maxlength="32" placeholder="Subject" required><br><br>
+                            
+                            <label>Email *</label><br><input type="email" size="25" name="Email" placeholder="your_email@gmail.com *"
+                                pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-z]{2,4}$" required><br><br>
+                            
+                            <label>Telephone</label><br><input type="tel" size="25" placeholder="123-456-7890" pattern="[0-9]{3}[/-][0-9]{3}[/-][0-9]{4}"><span> Ex. 123-456-789</span><br><br>
+                            
+                            <label>Date</label><br><input type="date" name="date"><br><br>
+                            
                             <label> Purpose of contact: <br>
                                 <label> 
                                         <input type="radio" name="purpose" value="inquiry" checked />
@@ -65,14 +70,29 @@
                                 </label><br>
                             </label><br>
 
-                            <textarea required></textarea><br><br>
+                            <label>Inquiry *</label><br>
+                            <textarea required rows="10" cols="50"></textarea><br><br>
 
-                            <label> Send me a copy of this email: <br>
-                                <label> Yes  
-                                        <input type="checkbox" name="emailCopy" value="yes" checked />
-                                </label>
-                                <label> No 
-                                        <input type="checkbox" name="emailCopy" value="no" />
+                            <label> How Did You Hear About Us? (check all that apply)<br>
+                                <label>
+                                    <input type="checkbox" name="hearAboutUS" value="website" />
+                                    Website
+                                </label><br>
+                                <label>
+                                        <input type="checkbox" name="hearAboutUS"  value="friend" />
+                                    Friend
+                                </label><br>
+                                <label> 
+                                        <input type="checkbox" name="hearAboutUS" value="colleague" />
+                                    Colleague
+                                </label><br>
+                                <label>
+                                    <input type="checkbox" name="hearAboutUS" value="colleague" />
+                                    School
+                                </label><br>
+                                <label>
+                                    <input type="checkbox" name="hearAboutUS" value="colleague" />
+                                    Work
                                 </label><br>
                             </label><br>
 
