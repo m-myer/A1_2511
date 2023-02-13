@@ -11,15 +11,15 @@ table caption {
 }
 
 th {
-    background-color: #D1D7E2;
+    background-color: rgb(209, 215, 226, 1.5);
 }
 
 tr:nth-child(even) {
-    background-color: #D7E2D1;
+    background-color: rgb(215, 226, 209,1.5);
   }
 
 tr:nth-child(odd) {
-    background-color: #E2D1D7;
+    background-color: rgb(226, 209, 215,1.5);
 }
 
 table a:link {

@@ -1,7 +1,7 @@
 .header { 
-    height: fit-content;
     display: grid;
-    border-bottom: 10px solid rgb(110, 47, 78, 0.25);
+    border-bottom: 10px ridge rgba(231, 108, 112, 0.40);
+    height: fit-content;
     grid-template-columns: 1fr 8fr 1fr;
     text-align: center;
     font-size: 2rem;
@@ -23,12 +23,17 @@
 }
 
 .sectionWrapper {
+    background-color: rgb(83, 157, 156, 0.40);
     display: grid;
     grid-template-columns: 1fr 3fr 1fr;
     min-height: 100%;
 }
 
 .leftSectionNav {
+    background-color: rgb(231, 108, 113, 0.40);
+    border-top-right-radius: 8%;
+    border-bottom-right-radius: 8%;
+    border-right: 10px ridge rgba(231, 108, 112, 0.40);
     margin-right: 20px;
     background-repeat: no-repeat;
     background-size: cover;
@@ -87,10 +92,15 @@
 }
 
 .rightSection {
+    background-color: rgb(231, 108, 113, 0.40);
+    border-top-left-radius: 8%;
+    border-bottom-left-radius: 8%;
+    border-left: 10px ridge rgba(231, 108, 112, 0.40);
     margin-left: 20px;
 }
 
 .currentPageNav {
+
     position: fixed;
     margin-top: 2%;
     right: 2%;
@@ -121,7 +131,7 @@
 }
 
 .currentPage {
-    background-color: rgb(0, 255, 255, 0.25);
+    background-color: rgba(26, 226, 223, 0.4);
     border-radius: 5%;
 }
 
@@ -138,11 +148,20 @@ a:hover {
 }
 
 .footer {
+    border-top: 10px ridge rgba(231, 108, 112, 0.40);
     position: relative;
-    border-top: 10px solid rgb(110, 47, 78, 0.25);
     text-align: center;
     font-size: 1.5rem;
     top: 75%;
+}
+
+.footer p{
+    margin: 0;
+}
+
+html {
+    position: relative;
+    min-height: 850px;
 }
 
 body {
