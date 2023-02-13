@@ -1,0 +1,210 @@
+.header { 
+    display: grid;
+    border-bottom: 10px ridge rgba(231, 108, 112, 0.25);
+    height: fit-content;
+    grid-template-columns: 1fr 8fr 1fr;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.logoDiv{
+    align-content: center;
+}
+
+.logoDiv img{
+    height: 100%;
+    width: 100%;
+}
+
+.pageSectionHeader {
+    text-decoration: underline wavy;
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+.sectionWrapper {
+    background-color: rgb(83, 157, 156, 0.25);
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    min-height: 100%;
+    font-size: 1.25rem;
+}
+
+.leftSectionNav {
+    background-color: rgb(231, 108, 113, 0.25);
+    border-top-right-radius: 8%;
+    border-bottom-right-radius: 8%;
+    border-right: 10px ridge rgba(231, 108, 112, 0.25);
+    margin-right: 20px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+}
+
+.navPages {
+    position: fixed;
+    margin-top: 2%;
+    left: 2%;
+    width: 15%;
+    text-align: center;
+}
+
+.navPages label {
+    font-size: 2rem;
+    text-decoration: overline underline;
+}
+.navPages li {
+    font-size: 1.25rem;
+    list-style: none;
+    margin-top: 25px;
+}
+.navPages hr {
+    width: 100%;
+    margin: 40px auto 40px auto
+}
+
+.centerSectionContent h2{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    text-decoration: underline;
+}
+
+.centerSectionContent h3{
+    margin-left: 10%;
+    margin-right: auto;
+    text-align: left;
+    width: 80%;
+    font-weight: lighter;
+}
+
+.centerSectionContent hr{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.centerSectionContent p{
+    margin-bottom: 75px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    width: 80%;
+}
+
+.rightSection {
+    background-color: rgb(231, 108, 113, 0.25);
+    border-top-left-radius: 8%;
+    border-bottom-left-radius: 8%;
+    border-left: 10px ridge rgba(231, 108, 112, 0.25);
+    margin-left: 20px;
+}
+
+.currentPageNav {
+
+    position: fixed;
+    margin-top: 2%;
+    right: 2%;
+    width: 15%;
+    text-align: center;
+}
+
+.currentPageNav {
+    position: fixed;
+    text-align: center;
+}
+.currentPageNav label {
+    font-size: 2rem;
+    text-decoration: overline underline;
+}
+.currentPageNav li {
+    font-size: 1.25rem;
+    list-style: none;
+    margin-top: 25px;
+}
+.currentPageNav hr {
+    width: 100%;
+    margin: 40px auto 40px auto
+}
+
+.currentPage {
+    color: violet;
+}
+
+.currentPage {
+    background-color: rgba(26, 226, 223, 0.4);
+    border-radius: 5%;
+}
+
+a:link {
+    color: rgb(88, 20, 119);
+}
+
+a:visited {
+    color: rgb(88, 20, 119);
+}
+
+a:hover {
+    color: rgb(213, 153, 241);
+}
+
+.footer {
+    border-top: 10px ridge rgba(231, 108, 112, 0.25);
+    position: relative;
+    text-align: center;
+    font-size: 1.5rem;
+    top: 75%;
+}
+
+.footer p{
+    margin: 0;
+}
+
+html {
+    position: relative;
+    min-height: 850px;
+}
+
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0 5px 0 5px;
+}
+
+main {
+    min-height: 500px;
+}
+
+section {
+    min-height: 500px;
+}
+
+nav ul {
+    padding: 0;
+}
+
+article h3::first-letter {
+    color: rgb(231, 108, 113, 1);
+    font-weight: 300;
+    font-size: 2rem;
+}
+
+article p {
+    text-align: center;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+hr {
+    width: 100%;
+    margin: 50px;
+}
+
+figure {
+    float: right;
+}
+
+a {
+    text-decoration: none;
+}
