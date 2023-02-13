@@ -12,9 +12,9 @@ Michael Myer
 
 Contribution Split:
 
--Content
-  -Andrew
-  -Michael
+-Content <br>
+  -Andrew <br>
+  -Michael <br>
 
 -Structure
   -Andrew
