@@ -61,6 +61,7 @@ a:visited {
 }
 
 .buttonStyle {
+    font-size: 1.05rem;
     background-color:rgb(110, 47, 78, 0.45);
     margin: 5px;
     padding: 5px;
@@ -74,10 +75,6 @@ a:visited {
 html {
     position: relative;
     min-height: 100%;
-}
-
-header div {
-    text-align: left;
 }
 
 body {
@@ -94,6 +91,7 @@ main {
 }
 
 h2 {
+    margin-top: 10%;
     font-size: 4rem;
 }
 

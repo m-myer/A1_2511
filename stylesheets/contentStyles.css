@@ -1,14 +1,4 @@
 /*
-    ========== Id Selectors ==========
-*/
-table {
-    border-collapse: collapse;
-}
-
-
-
-
-/*
     ========== Pseudo-Class Selectors ==========
 */
 a:hover {
@@ -44,6 +34,7 @@ a:hover {
 
 .navPages {
     position: fixed;
+    margin-top: 2%;
     left: 2%;
     width: 15%;
     text-align: center;
@@ -51,6 +42,7 @@ a:hover {
 
 .currentPageNav {
     position: fixed;
+    margin-top: 2%;
     right: 2%;
     width: 15%;
     text-align: center;
@@ -72,8 +64,8 @@ a:hover {
     color: violet;
 }
 
-.logoDiv {
-    align-items: center;
+.logoDiv{
+    align-content: center;
 }
 
 /*
@@ -135,13 +127,6 @@ figure {
     margin-right: auto;
 }
 
-.centerSectionContent table{
-    width: 100%;
-    margin-top: 5%;
-    margin-left: auto;
-    margin-right: auto;
-}
-
 .navPages label {
     font-size: 2rem;
     text-decoration: overline underline;
@@ -174,6 +159,23 @@ figure {
     margin: 40px auto 40px auto
 }
 
+a:link {
+    color: rgb(88, 20, 119);
+}
+
+a:visited {
+    color: rgb(88, 20, 119);
+}
+
+a:hover {
+    color: rgb(213, 153, 241);
+}
+
+li a.currentPage {
+    background-color: rgb(0, 255, 255, 0.25);
+    border-radius: 5%;
+}
+
 .logoDiv img{
     height: 100%;
     width: 100%;
@@ -201,9 +203,6 @@ figure {
     font-weight: lighter;
 }
 
-article {
-}
-
 article h3::first-letter {
     text-transform: uppercase;
     font-weight: 100;
@@ -219,16 +218,3 @@ article p {
     font-size: 2.5rem;
     text-align: center;
 }
-
-th {
-    background-color: #D1D7E2;
-}
-
-tr:nth-child(even) {
-    background-color: #D7E2D1;
-  }
-
-tr:nth-child(odd) {
-    background-color: #E2D1D7;
-
-  }
