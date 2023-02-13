@@ -2,8 +2,13 @@
 
 https://github.com/m-myer/A1_2511
 
+-----------------------------------
+Team Members:
+
 Andrew Walsh
 Michael Myer
+
+-----------------------------------
 
 Contribution Split:
 
