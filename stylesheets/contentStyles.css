@@ -55,6 +55,7 @@ input:invalid {
 
 .navPages {
     position: fixed;
+    margin-top: 2%;
     left: 2%;
     width: 15%;
     text-align: center;
@@ -62,6 +63,7 @@ input:invalid {
 
 .currentPageNav {
     position: fixed;
+    margin-top: 2%;
     right: 2%;
     width: 15%;
     text-align: center;
